@@ -10,7 +10,8 @@ public class CreateOrder {
 		
 		WebDriver driver = new ChromeDriver();
 		
-		driver.get("https://demowebshop.tricentis.com/");
+		String url = "https://demowebshop.tricentis.com/";
+		driver.get(url);
 		
 		System.out.println(" website invoked ");
 		

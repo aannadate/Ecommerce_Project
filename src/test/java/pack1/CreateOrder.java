@@ -12,6 +12,7 @@ public class CreateOrder {
 		
 		driver.get("https://demowebshop.tricentis.com/");
 		
+		System.out.println(" website invoked ");
 		
 		
 
